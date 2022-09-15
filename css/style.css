@@ -1,0 +1,100 @@
+.navbar {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.navbar .navbar-brand img {
+    height: 4rem;
+    width: auto;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+
+}
+
+.navbar .navbar-collapse .navbar-nav li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-content {
+    padding-top: 12%;
+}
+
+.home-page-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+
+}
+
+.home-supporting-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 1px #333333;
+}
+
+.homepage-btn-1 {
+    background: #00cc00;
+    color: white;
+    margin-left: 4px;
+    font-size: x-large;
+    border-radius: .4rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.homepage-btn-1:hover {
+    background: #004d00;
+    color: white;
+}
+
+/* /Home page end */
+
+
+
+
+/* Small screens */
+@media (max-width: 576px) {
+
+    /* HOME section */
+    .home-page-content {
+        padding-top: 10rem;
+    }
+
+    .home-page-text {
+        font-size: 1.6rem;
+    }
+
+    .home-buttons .homepage-btn-1,
+    .homepage-btn-2 {
+        font-size: 1rem;
+    }
+
+    /* Home section */
+
+
+
+}
+
+/* /TEAM Section */
