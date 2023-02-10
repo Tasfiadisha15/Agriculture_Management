@@ -6,16 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <script src="https://kit.fontawesome.com/64cc2e590f.js" crossorigin="anonymous"></script>
+
     <style>
-        h1 {
+        .weather-dcrp {
             text-align: center;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 5px rgb(212, 38, 38);
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 </head>
 
 <body>
-    <h1>Weather Condition Chart</h1>
+
+    <div class="weather-dcrp">
+        <h1>Weather Condition Chart</h1>
+        <p>The value of weather detection refers to the measurement or prediction of various atmospheric conditions,
+            such as temperature, precipitation, humidity, wind speed, and pressure, in a given location and time. This
+            information is used to monitor and forecast weather patterns, and to provide alerts for severe weather
+            conditions. Weather detection values are typically collected by various weather monitoring stations and
+            sensors, such as thermometers, barometers, anemometers, and rain gauges. The values can then be analyzed and
+            used to create weather maps and forecast models, which are used by meteorologists and other experts to make
+            weather predictions and provide real-time weather updates to the public. Weather detection values can also
+            be combined with other data sources, such as satellite images, radar data, and historical records, to
+            produce more accurate and detailed weather forecasts. The value of weather detection is important for a wide
+            range of industries and activities, including agriculture, aviation, transportation, energy, and emergency
+            management, as it helps people prepare for and respond to changing weather conditions.</p>
+    </div>
+
     <canvas id="myChart"></canvas>
     <script>
         //         const csvFile = `1,2,3,4,5
