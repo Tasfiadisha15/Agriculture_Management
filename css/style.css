@@ -1,11 +1,13 @@
 .navbar {
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(232, 241, 241);
 }
 
 .navbar .navbar-brand img {
-    height: 4rem;
+    height: 2rem;
     width: auto;
 }
+
+
 
 .navbar .navbar-toggler {
     border: none;
@@ -42,7 +44,7 @@
     font-weight: 500;
     font-size: 4rem;
     color: white;
-    text-shadow: 2px 1px #333333;
+    text-shadow: 2px 1px #31f320;
 
 }
 
